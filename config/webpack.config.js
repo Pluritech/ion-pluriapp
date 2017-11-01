@@ -20,7 +20,6 @@ function environmentPath() {
   } else {
     filePath = './src/environments/environment' + (env === 'prod' ? '' : '.' + env) + '.ts';
   }
-  console.log(filePath, env);
   if (!fs.existsSync(filePath)) {
     console.log(chalk.red('\n' + filePath + ' does not exist!'));
   } else {
