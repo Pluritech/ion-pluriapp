@@ -1,8 +1,8 @@
 {
   "name": "ion-pluriapp",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "version": "1.0.0",
+  "author": "Pluritech",
+  "homepage": "http://www.pluritech.com.br/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
