@@ -10,10 +10,10 @@ import { environment } from '@app/env';
 })
 export class HomePage {
 
-  public text: string;
+  public env: string;
 
   constructor(public navCtrl: NavController) {
-    this.text = environment.text;
+    this.env = environment.env;
   }
 
 }
