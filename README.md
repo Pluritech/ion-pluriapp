@@ -16,3 +16,6 @@ $ npm install
 $ ionic serve
 ```
 
+## TODO:
+
+* Change ion-pluriapp/config/webpack.config.js to get environments dynamically
